@@ -15,18 +15,22 @@
   background-color: #fff;
 }
 
+.siteheader-container {
+    display: flex;
+}
+
 .siteheader-logo {
   display: flex;
 }
 
 .siteheader-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .siteheader-nav-link {
-  margin-right: 32px;
+  margin-right: 2rem;
   font-size: 1rem;
   text-decoration: none;
   line-height: 1;
@@ -38,30 +42,33 @@
 .hero {
   display: flex;
   justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #000;
 }
 
 /* DISCOVER
 ——————————————————————————————————————————————*/
-.discover {
+/*.discover {
   padding-top: 64px;
-}
+}*/
 
 .discover-intro {
-  margin-bottom: 64px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .discover-intro-title {
   justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
   font-size: 1.5rem;
   font-weight: 600;
   color: #3e4247;
 }
 
 .discover-intro-text {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   font-size: 1rem;
 }
 
@@ -71,7 +78,7 @@
   padding-bottom: 13px;
   padding-right: 31px;
   border: 0;
-  border-radius: 2px;
+  border-radius: 0.25rem;
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.4;
@@ -84,7 +91,7 @@
 ——————————————————————————————————————————————*/
 .discover-card {
   display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -106,12 +113,12 @@
 }
 
 .discover-card-description {
-  padding-top: 24px;
-  padding-left: 32px;
-  padding-bottom: 24px;
-  padding-right: 32px;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
   border-bottom-color: #646971;
-  border-bottom-width: 2px;
+  border-bottom-width: 0.25rem;
   border-bottom-style: solid;
   text-align: left;
   background-color: #fff;
@@ -125,8 +132,8 @@
 }
 
 .discover-card-title {
-  margin-top: 24px;
-  margin-bottom: 8px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
   font-size: 2.5rem;
   font-weight: 700;
   color: #000;
@@ -141,14 +148,67 @@
 /* FOOTER
 ——————————————————————————————————————————————*/
 .footer-main {
-  margin-top: 48px;
-  padding-top: 32px;
+  margin-top: 3rem;
+  padding-top: 2rem;
   background-color: #111;
 }
 
+.footer-block-title {
+  padding: 0;
+  margin-top: 0.5rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: #646971;
+}
+
+.footer-block-link {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-block-link-all {
+  display: block;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-imprint-text {
+  padding-bottom: 0.5rem;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  color: #a9afb6;
+}
+
+.footer-imprint-link {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #a9afb6;
+}
+
+.footer-line {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 0.25rem;
+  border-style: solid;
+  background-color: #3e4247;
+}
+
 .footer-disclaimer-text {
-  margin-top: 90px;
-  margin-bottom: 32px;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
   font-size: 0.7rem;
   font-weight: 300;
   line-height: 1.4;
