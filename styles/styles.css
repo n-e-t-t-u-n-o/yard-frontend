@@ -15,6 +15,10 @@
 ——————————————————————————————————————————————*/
 .global-header {
   display: flex;
+<<<<<<< HEAD
+=======
+  justify-content: center;
+>>>>>>> footer is kinda bad
   background-color: #fff;
 }
 
@@ -68,6 +72,7 @@
 /* DISCOVER
 ——————————————————————————————————————————————*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .discover-intro {
 <<<<<<< HEAD
@@ -81,6 +86,8 @@
 /*.discover {
   padding-top: 64px;
 }*/
+=======
+>>>>>>> footer is kinda bad
 
 .discover-intro {
   padding-top: 4rem;
@@ -171,9 +178,9 @@
 
 .discover-card-description {
   padding-top: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-bottom: 1.5rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   border-bottom-color: #646971;
   border-bottom-width: 0.25rem;
 >>>>>>> some mistakes were made
@@ -182,7 +189,11 @@
   background-color: #fff;
 }
 
+<<<<<<< HEAD
 .card-area {
+=======
+.discover-card-area {
+>>>>>>> footer is kinda bad
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: 1rem;
@@ -196,8 +207,12 @@
   margin-top: 0;
 =======
 .discover-card-title {
+<<<<<<< HEAD
   margin-top: 1.5rem;
 >>>>>>> some mistakes were made
+=======
+  margin-top: 0;
+>>>>>>> footer is kinda bad
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
   font-weight: 700;
@@ -223,6 +238,7 @@
   background-color: #111;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .global-footer-title {
   margin-top: 0;
@@ -259,6 +275,12 @@
   font-weight: 300;
   line-height: 1;
 =======
+=======
+.footer-wrap {
+  justify-content: center;
+}
+
+>>>>>>> footer is kinda bad
 .footer-block-title {
   padding: 0;
   margin-top: 0.5rem;
@@ -327,9 +349,13 @@
 .footer-line {
   margin-bottom: 1rem;
   width: 100%;
-  height: 0.25rem;
+  height: 0.125rem;
   border-style: solid;
   background-color: #3e4247;
+}
+
+.footer-disclaimer {
+  justify-content: center;
 }
 
 .footer-disclaimer-text {
