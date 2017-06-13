@@ -11,7 +11,7 @@
 ——————————————————————————————————————————————*/
 .siteheader {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #fff;
 }
 
@@ -49,9 +49,6 @@
 
 /* DISCOVER
 ——————————————————————————————————————————————*/
-/*.discover {
-  padding-top: 64px;
-}*/
 
 .discover-intro {
   padding-top: 4rem;
@@ -70,6 +67,7 @@
 .discover-intro-text {
   margin-bottom: 1rem;
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .discover-intro-button {
@@ -114,9 +112,9 @@
 
 .discover-card-description {
   padding-top: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-bottom: 1.5rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
   border-bottom-color: #646971;
   border-bottom-width: 0.25rem;
   border-bottom-style: solid;
@@ -125,6 +123,8 @@
 }
 
 .discover-card-area {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
   font-size: 1rem;
   font-family: Monaco, Consolas, 'Lucida Console', monospace;
   text-transform: uppercase;
@@ -132,7 +132,7 @@
 }
 
 .discover-card-title {
-  margin-top: 1.5rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
   font-weight: 700;
@@ -151,6 +151,10 @@
   margin-top: 3rem;
   padding-top: 2rem;
   background-color: #111;
+}
+
+.footer-wrap {
+  justify-content: center;
 }
 
 .footer-block-title {
@@ -201,9 +205,13 @@
 .footer-line {
   margin-bottom: 1rem;
   width: 100%;
-  height: 0.25rem;
+  height: 0.125rem;
   border-style: solid;
   background-color: #3e4247;
+}
+
+.footer-disclaimer {
+  justify-content: center;
 }
 
 .footer-disclaimer-text {
