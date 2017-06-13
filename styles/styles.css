@@ -46,9 +46,13 @@
 ——————————————————————————————————————————————*/
 
 .discover-intro {
+<<<<<<< HEAD
   padding-top: 4rem;
   padding-bottom: 4rem;
   color: #3e4247;
+=======
+  margin-bottom: 64px;
+>>>>>>> styles.css update
 }
 
 .discover-intro-title {
