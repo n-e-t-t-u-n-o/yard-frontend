@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <title>Compass</title>
+  <title>Compass Development</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/flexboxgrid.css">
 </head>
-<body>
-  <header class="siteheader">
+<body class="body-main">
+  <header class="siteheader row between-xs">
     <img class="siteheader-logo" src="img/compass-logo.svg" alt="Compass logo">
     <nav class="siteheader-nav">
       <a class="siteheader-nav-link" href=# title="Buy">Buy</a>
@@ -19,25 +18,28 @@
       <a class="siteheader-nav-link" href=# title="Our Agents">Our Agents</a>
     </nav>
   </header>
-  <section class="hero">
+  <section class="hero row center-xs">
     <img class="hero-logo" src="img/compass-development-logo.svg" alt="Compass Development">
   </section>
-  <section class="discover">
-    <h2 class="discover-title">Discover Our New Developments</h2>
-    <p class="discover-text">Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</p>
-    <button class="discover-button">Contact The Team</button>
+  <section class="discover center-xs">
+    <div class="discover-intro center-xs container">
+      <h2 class="discover-intro-title">Discover Our New Developments</h2>
+      <p class="discover-intro-text col-lg-8">Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</p>
+      <button class="discover-intro-button">Contact The Team</button>
+    </div>
     <a class="discover-card-link" href=#>
-      <div class="discover-card">
-        <img src="img/bitmap.jpg" alt="The Harrison">
+      <div class="discover-card container">
+        <img class="discover-card-image" src="img/bitmap.jpg" alt="The Harrison">
         <div class="discover-card-description">
           <p class="discover-card-area" href=#>South Beach, San Francisco</p>
           <h3 class="discover-card-title">The Harrison</h3>
           <p class="discover-card-text">Beautifully appointed residences perched atop Rincon Hill, The Harrison offers unparalleled Bay Bridge and city views within steps of San Francisco’s greatest restaurants, shops, and The Embarcadero.</p>
         </div>
       </div>
+    </a>
     <a class="discover-card-link" href=#>
-      <div class="discover-card">
-        <img src="img/bitmap.jpg" alt="100 East 53rd Street">
+      <div class="discover-card container">
+        <img class="discover-card-image" src="img/bitmap2.jpg" alt="100 East 53rd Street">
         <div class="discover-card-description">
           <p class="discover-card-area" href=#>Midtown East, Manhattan</p >
           <h3 class="discover-card-title">100 East 53rd Street</h3>
@@ -46,8 +48,8 @@
       </div>
     </a>
     <a class="discover-card-link" href=#>
-      <div class="discover-card">
-        <img src="img/bitmap.jpg" alt="152 Elizabeth">
+      <div class="discover-card container">
+        <img class="discover-card-image" src="img/bitmap3.jpg" alt="152 Elizabeth">
         <div class="discover-card-description">
           <p class="discover-card-area" href=#>Nolita, Manhattan</p>
           <h3 class="discover-card-title">152 Elizabeth</h3>
@@ -56,7 +58,7 @@
       </div>
     </a>
   </section>
-  <footer>
+  <footer class="footer-main">
     <div class="footer-imprint">
       <h4>ООО &laquo;Ярд&raquo;</h4>
       <p>ОГРН 1175074002531</p>
@@ -79,8 +81,8 @@
         <li class="footer-company-nav-li"><a class="footer-company-nav-link" href=# title="О компании">О компании</a></li>
       </ul>
     </div>
-    <div class="footer-disclaimer">
-      <p class="footer-disclaimer-text">Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ. &copy; ООО &laquo;Ярд&raquo;, 2017</p>
+    <div class="footer-disclaimer row">
+      <p class="footer-disclaimer-text col-xs-offset-4 col-xs-8">Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ. &copy; ООО &laquo;Ярд&raquo;, 2017</p>
     </div>
   </footer>
 </body>
