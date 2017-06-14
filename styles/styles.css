@@ -2,6 +2,7 @@
 ——————————————————————————————————————————————*/
 .global-body {
   font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
   background-color: #eaebf0;
   background-image: url(../img/background.png);
   background-size: 20px 10px;
