@@ -44,19 +44,12 @@
 
 /* DISCOVER
 ——————————————————————————————————————————————*/
-<<<<<<< HEAD
 
 .discover-intro {
 <<<<<<< HEAD
   padding-top: 4rem;
   padding-bottom: 4rem;
   color: #3e4247;
-=======
-/*.discover {
-  padding-top: 64px;
-}*/
-=======
->>>>>>> footer is kinda bad
 
 .discover-intro {
   margin-left: auto;
@@ -89,11 +82,7 @@
   padding-bottom: 12px;
   padding-right: 2rem;
   border: 0;
-<<<<<<< HEAD
   border-radius: 0.125rem;
-=======
-  border-radius: 0.125rem;
->>>>>>> markup fixed, styles fixed
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   line-height: 1;
@@ -160,11 +149,7 @@
 }
 
 .discover-card-title {
-<<<<<<< HEAD
-  margin-top: 1.5rem;
-=======
   margin-top: 0;
->>>>>>> footer is kinda bad
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
   font-weight: 700;
@@ -185,7 +170,6 @@
   background-color: #111;
 }
 
-<<<<<<< HEAD
 .global-footer-title {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -303,6 +287,7 @@
 .footer-disclaimer-text {
   margin-top: 6rem;
   margin-bottom: 2rem;
+<<<<<<< HEAD
   font-size: 0.7rem;
 >>>>>>> some mistakes were made
   font-weight: 300;
