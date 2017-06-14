@@ -15,40 +15,17 @@
 ——————————————————————————————————————————————*/
 .global-header {
   display: flex;
-<<<<<<< HEAD
-=======
-  justify-content: center;
->>>>>>> footer is kinda bad
   background-color: #fff;
 }
 
-<<<<<<< HEAD
 .global-header-nav {
-=======
-.siteheader-container {
-    display: flex;
-}
-
-.siteheader-logo {
->>>>>>> some mistakes were made
   display: flex;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-<<<<<<< HEAD
 .global-header-nav-link {
   margin-left: 2rem;
-=======
-.siteheader-nav {
-  display: flex;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.siteheader-nav-link {
-  margin-right: 2rem;
->>>>>>> some mistakes were made
   font-size: 1rem;
   text-decoration: none;
   line-height: 1;
@@ -62,16 +39,11 @@
   justify-content: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
-<<<<<<< HEAD
   background-color: #161616;
-=======
-  background-color: #000;
->>>>>>> some mistakes were made
 }
 
 /* DISCOVER
 ——————————————————————————————————————————————*/
-<<<<<<< HEAD
 <<<<<<< HEAD
 
 .discover-intro {
@@ -79,9 +51,6 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
   color: #3e4247;
-=======
-  margin-bottom: 64px;
->>>>>>> styles.css update
 =======
 /*.discover {
   padding-top: 64px;
@@ -106,14 +75,10 @@
 }
 
 .discover-intro-text {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
   padding: 0;
-=======
-  margin-bottom: 1rem;
->>>>>>> some mistakes were made
   font-size: 1rem;
   line-height: 1.4;
 }
@@ -125,11 +90,7 @@
   padding-right: 2rem;
   border: 0;
 <<<<<<< HEAD
-<<<<<<< HEAD
   border-radius: 0.125rem;
-=======
-  border-radius: 0.25rem;
->>>>>>> some mistakes were made
 =======
   border-radius: 0.125rem;
 >>>>>>> markup fixed, styles fixed
@@ -145,17 +106,9 @@
 ——————————————————————————————————————————————*/
 .card {
   display: flex;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
-  text-decoration: none;
-=======
 =======
   margin-left: auto;
   margin-right: auto;
->>>>>>> markup fixed, styles fixed
   margin-bottom: 3rem;
 >>>>>>> some mistakes were made
   transition: all 0.3s ease-in-out;
@@ -167,38 +120,23 @@
           box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
 }
 
-<<<<<<< HEAD
-.card-image {
-=======
 .discover-card-link {
   display: block;
   text-decoration: none;
 }
 
 .discover-card-image {
->>>>>>> markup fixed, styles fixed
   flex-shrink: 0;
   width: 484px;
   height: 350px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.card-description {
-  padding-top: 1.5rem;
-  padding-left: 1rem;
-  padding-bottom: 1.5rem;
-  padding-right: 1rem;
-  border-bottom-color: #646971;
-  border-bottom-width: 0.125rem;
-=======
 .discover-card-link {
   display: block;
   text-decoration: none;
 }
 
 =======
->>>>>>> markup fixed, styles fixed
 .discover-card-description {
   padding-top: 1.5rem;
   padding-left: 1rem;
@@ -208,18 +146,11 @@
   border-bottom-width: 0.25rem;
 >>>>>>> some mistakes were made
   border-bottom-style: solid;
-<<<<<<< HEAD
     text-decoration: none;
-=======
->>>>>>> markup fixed, styles fixed
   background-color: #fff;
 }
 
-<<<<<<< HEAD
 .card-area {
-=======
-.discover-card-area {
->>>>>>> footer is kinda bad
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: 1rem;
@@ -228,14 +159,9 @@
   color: #646971;
 }
 
-<<<<<<< HEAD
-.card-title {
-  margin-top: 0;
-=======
 .discover-card-title {
 <<<<<<< HEAD
   margin-top: 1.5rem;
->>>>>>> some mistakes were made
 =======
   margin-top: 0;
 >>>>>>> footer is kinda bad
@@ -253,18 +179,12 @@
 
 /* FOOTER
 ——————————————————————————————————————————————*/
-<<<<<<< HEAD
-.global-footer {
-  margin-top: 6rem;
-=======
 .footer-main {
   margin-top: 3rem;
->>>>>>> some mistakes were made
   padding-top: 2rem;
   background-color: #111;
 }
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 .global-footer-title {
   margin-top: 0;
@@ -300,15 +220,6 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 1;
-=======
-=======
-.footer-wrap {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
->>>>>>> footer is kinda bad
 .footer-block-title {
   padding: 0;
   margin-top: 0.5rem;
@@ -339,7 +250,6 @@
 }
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 .global-footer-list {
   list-style: none;
   padding: 0;
@@ -357,13 +267,6 @@
   margin-bottom: 2rem;
   padding: 0;
   font-size: 11px;
-=======
-=======
-.footer-imprint {
-  text-align: left;
-}
-
->>>>>>> markup fixed, styles fixed
 .footer-imprint-text {
   padding-bottom: 0.5rem;
   margin: 0;
