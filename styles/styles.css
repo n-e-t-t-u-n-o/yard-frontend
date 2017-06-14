@@ -90,6 +90,8 @@
 >>>>>>> footer is kinda bad
 
 .discover-intro {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
 >>>>>>> some mistakes were made
@@ -123,10 +125,14 @@
   padding-right: 2rem;
   border: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-radius: 0.125rem;
 =======
   border-radius: 0.25rem;
 >>>>>>> some mistakes were made
+=======
+  border-radius: 0.125rem;
+>>>>>>> markup fixed, styles fixed
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   line-height: 1;
@@ -140,11 +146,16 @@
 .card {
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
   text-decoration: none;
 =======
+=======
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> markup fixed, styles fixed
   margin-bottom: 3rem;
 >>>>>>> some mistakes were made
   transition: all 0.3s ease-in-out;
@@ -156,12 +167,22 @@
           box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
 }
 
+<<<<<<< HEAD
 .card-image {
+=======
+.discover-card-link {
+  display: block;
+  text-decoration: none;
+}
+
+.discover-card-image {
+>>>>>>> markup fixed, styles fixed
   flex-shrink: 0;
   width: 484px;
   height: 350px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .card-description {
   padding-top: 1.5rem;
@@ -176,6 +197,8 @@
   text-decoration: none;
 }
 
+=======
+>>>>>>> markup fixed, styles fixed
 .discover-card-description {
   padding-top: 1.5rem;
   padding-left: 1rem;
@@ -185,7 +208,10 @@
   border-bottom-width: 0.25rem;
 >>>>>>> some mistakes were made
   border-bottom-style: solid;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+>>>>>>> markup fixed, styles fixed
   background-color: #fff;
 }
 
@@ -277,7 +303,9 @@
 =======
 =======
 .footer-wrap {
-  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 >>>>>>> footer is kinda bad
@@ -294,7 +322,7 @@
   padding: 0;
   margin: 0;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 100;
   text-decoration: none;
   color: #fff;
 }
@@ -310,6 +338,7 @@
   color: #fff;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .global-footer-list {
   list-style: none;
@@ -329,6 +358,12 @@
   padding: 0;
   font-size: 11px;
 =======
+=======
+.footer-imprint {
+  text-align: left;
+}
+
+>>>>>>> markup fixed, styles fixed
 .footer-imprint-text {
   padding-bottom: 0.5rem;
   margin: 0;
@@ -354,8 +389,12 @@
   background-color: #3e4247;
 }
 
-.footer-disclaimer {
+
+.footer-disclaimer-wrap {
+  display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-disclaimer-text {
