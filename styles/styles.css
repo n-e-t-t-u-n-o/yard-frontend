@@ -18,10 +18,6 @@
   background-color: #fff;
 }
 
-.global-header-logo-link {
-  display: block;
-}
-
 .global-header-nav {
   display: flex;
   margin-top: 1.5rem;
@@ -293,15 +289,21 @@
 
 .global-footer-list-item {
   padding: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1;
 }
 
 .footer-disclaimer-text {
   margin-top: 6rem;
   margin-bottom: 2rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 0.7rem;
 >>>>>>> some mistakes were made
+=======
+  padding: 0;
+  font-size: 11px;
+>>>>>>> fix: removed unused classes
   font-weight: 300;
   line-height: 1.6;
   color: #a9afb6;
