@@ -18,8 +18,8 @@
   background-color: #fff;
 }
 
-.global-header-logo {
-    display: flex;
+.global-header-logo-link {
+  display: block;
 }
 
 .global-header-nav {
