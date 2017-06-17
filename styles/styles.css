@@ -60,7 +60,6 @@
   margin-right: auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
->>>>>>> some mistakes were made
 }
 
 .discover-intro-title {
@@ -99,13 +98,10 @@
 ——————————————————————————————————————————————*/
 .card {
   display: flex;
-<<<<<<< HEAD
-=======
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
   text-decoration: none;
->>>>>>> fix: removed -link postfix, removed div inside cards
   transition: all 0.3s ease-in-out;
 }
 
@@ -125,26 +121,20 @@
   height: 350px;
 }
 
-<<<<<<< HEAD
 .discover-card-link {
   display: block;
   text-decoration: none;
 }
 
-=======
-.discover-card-description {
-=======
 .card-description {
->>>>>>> fix: removed -link postfix, removed div inside cards
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   padding-right: 1rem;
   border-bottom-color: #646971;
   border-bottom-width: 0.25rem;
->>>>>>> some mistakes were made
   border-bottom-style: solid;
-    text-decoration: none;
+  text-decoration: none;
   background-color: #fff;
 }
 
@@ -206,6 +196,8 @@
   font-size: 14px;
   font-weight: 300;
   line-height: 1;
+}
+
 .footer-block-title {
   padding: 0;
   margin-top: 0.5rem;
@@ -230,12 +222,10 @@
   padding-right: 1rem;
   font-size: 14px;
   font-weight: 300;
->>>>>>> some mistakes were made
   text-decoration: none;
   color: #fff;
 }
 
-<<<<<<< HEAD
 .global-footer-list {
   list-style: none;
   padding: 0;
@@ -295,14 +285,9 @@
 .footer-disclaimer-text {
   margin-top: 5rem;
   margin-bottom: 2rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-size: 0.7rem;
->>>>>>> some mistakes were made
-=======
   padding: 0;
   font-size: 11px;
->>>>>>> fix: removed unused classes
   font-weight: 300;
   line-height: 1.6;
   color: #a9afb6;
