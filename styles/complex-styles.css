@@ -107,11 +107,12 @@
 .complex-features-unit {
   margin-right: 3rem;
   margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
 }
 
 .complex-features-title {
   margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding-bottom: 0;
   font-family: 'Philosopher';
   font-size: 1.5rem;
@@ -152,11 +153,11 @@
 
 .complex-summary-title {
   margin-top: 0rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.25em;
   width: 50%;
   font-size: 1rem;
   color: #a9afb6;
-  line-height: 1.2;
+  line-height: 1.4;
   width: 50%;
 }
 
@@ -166,7 +167,7 @@
   width: 50%;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.4;
   color: #3e4247;
 }
 
@@ -178,15 +179,16 @@
 ——————————————————————————————————————————————*/
 
 .complex-description {
+  padding-top: 0.25rem;
   padding-bottom: 0.5rem;
 }
 
 .complex-text {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
   font-size: 1rem;
   color: #3e4247;
-  line-height: 1.7rem;
+  line-height: 1.87;
 }
 
 /* COMPLEX INFRASTRUCTURE
@@ -206,8 +208,9 @@
 }
 
 .complex-infrastructure-unit {
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
   color: #3e4247;
 }
 
@@ -230,7 +233,7 @@
 }
 
 .complex-offer-card {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   padding: 1.5rem;
   background-color: #fff;
 }
