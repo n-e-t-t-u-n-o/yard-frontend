@@ -1,0 +1,336 @@
+/* GLOBAL STYLES
+——————————————————————————————————————————————*/
+
+.complex-body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-line-break: after-white-space;
+}
+
+/* COMPLEX HEADER
+——————————————————————————————————————————————*/
+
+.complex-header {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid #eaebf0;
+  background-color: #fff;
+}
+
+.complex-header-title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-family: Philosopher;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3e4247;
+}
+
+.complex-header-subtitle {
+  margin-top: 0;
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  font-weight: 300;
+  color: #a9afb6;
+  line-height: 1rem;
+}
+
+.complex-header-button-add-to-favorite {
+  margin-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  border: 1px solid #e0e0e1;
+  border-radius: 0.125rem;
+  font-family: 'Fira Sans';
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1;
+  color: #00779a;
+  background: none;
+  cursor: pointer;
+}
+
+/* COMPLEX GALLERY
+——————————————————————————————————————————————*/
+
+.complex-gallery-images {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.complex-gallery-image {
+  height: 400px;
+}
+
+.complex-gallery-button-wrapper {
+  position: absolute;
+  margin-top: -2.625rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.complex-gallery-button {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  background-color: #00779a;
+  font-family: 'Fira Sans';
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* COMPLEX FEATURES
+——————————————————————————————————————————————*/
+
+.complex-features-unit-wrapper {
+  display: flex;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 0.75rem;
+  border-bottom: 1px solid #e0e0e1;
+}
+
+.complex-features-unit {
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+.complex-features-heading {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0;
+  font-family: 'Philosopher';
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3e4247;
+}
+
+/* COMPLEX SUMMARY
+——————————————————————————————————————————————*/
+
+.complex-summary {
+  background: #fff;
+  margin-bottom: 3rem;
+}
+
+.complex-summary-features {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.complex-summary-unit {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.complex-summary-title {
+  margin-top: 0.25rem;
+  margin-top: 0.25rem;
+  width: 50%;
+  font-size: 1rem;
+  color: #a9afb6;
+  width: 50%;
+}
+
+.complex-summary-amount {
+  margin-top: 0.25rem;
+  margin-top: 0.25rem;
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3e4247;
+}
+
+.complex-summary-wrapper {
+  margin-top: 1rem;
+}
+
+/* COMPLEX DESCRIPTION
+——————————————————————————————————————————————*/
+
+.complex-description {
+  padding-bottom: 1rem;
+}
+
+.complex-text {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #3e4247;
+  line-height: 1.7rem;
+}
+
+/* COMPLEX INFRASTRUCTURE
+——————————————————————————————————————————————*/
+
+.complex-infrastructure {
+  padding-bottom:2.5rem;
+}
+
+.complex-infrastructure-wrapper {
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e1;
+}
+
+.complex-infrastructure-units {
+  margin-top: 0.5rem;
+}
+
+.complex-infrastructure-unit {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  color: #3e4247;
+}
+
+/* COMPLEX OFFERS
+——————————————————————————————————————————————*/
+
+.complex-offers {
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
+  background-color: #f4f5f9;
+}
+
+.complex-offers-title {
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+  font-family: 'Philosopher';
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3e4247;
+}
+
+.complex-offer-card {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.complex-offer-card-title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-family: 'Philosopher';
+  font-size: 20px;
+  font-weight: 700;
+  color: #3e4247;
+}
+
+.complex-offer-card-subtitle {
+  margin-bottom: 0.5rem;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #a9afb6;
+}
+
+.complex-offer-card-text {
+  margin-bottom: 0.5rem;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #a9afb6;
+}
+
+.discover-intro-button-wrapper {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* COMPLEX AREA
+——————————————————————————————————————————————*/
+
+.complex-area {
+  background-color: #3e4247;
+  padding-top: 4rem;
+  padding-bottom: 13.625rem;
+}
+
+.complex-area-title {
+  margin-top: 0;
+  padding-bottom: 0;
+  font-family: 'Philosopher';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a9afb6;
+}
+
+.complex-area-text {
+  margin-top: 3rem;
+  padding-right: 4rem;
+  font-family: 'Philosopher';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.complex-area-link {
+  text-decoration: none;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #00779a;
+}
+
+.complex-area-image {
+  width: 100%;
+}
+
+/* COMPLEX MAP
+——————————————————————————————————————————————*/
+
+.complex-map {
+  margin-top: -10rem;
+  padding-bottom: 2rem;
+}
+
+.complex-map-image {
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+          box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+}
+
+.complex-map-list {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+     -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+          box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
+}
+
+.complex-map-item {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-bottom: solid 1px #e0e0e1;
+}
+
+.complex-map-last-item {
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.complex-map-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3e4247;
+}
+
+.complex-map-text {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #a9afb6;
+}
