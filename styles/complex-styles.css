@@ -22,7 +22,7 @@
 
 .complex-header-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   font-family: Philosopher;
   font-size: 2rem;
   font-weight: bold;
@@ -37,7 +37,7 @@
   font-size: 14px;
   font-weight: 300;
   color: #a9afb6;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .complex-header-button-favorites {
