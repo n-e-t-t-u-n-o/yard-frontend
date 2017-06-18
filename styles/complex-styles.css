@@ -195,8 +195,19 @@
 }
 
 .complex-infrastructure-wrapper {
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   border-top: 1px solid #e0e0e1;
+}
+
+.complex-infrastructure-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+  font-family: 'Philosopher';
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.12;
+  color: #3e4247;
 }
 
 .complex-infrastructure-units {
@@ -204,9 +215,9 @@
 }
 
 .complex-infrastructure-unit {
-  margin-top: 0.5rem;
-  margin-bottom: 0.75rem;
-  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.38;
   color: #3e4247;
 }
 
