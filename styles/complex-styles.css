@@ -2,12 +2,7 @@
 ——————————————————————————————————————————————*/
 
 .complex-body {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 400;
   background-color: #fff;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased;
-  -webkit-line-break: after-white-space;
 }
 
 /* COMPLEX HEADER
@@ -31,6 +26,7 @@
 }
 
 .complex-header-subtitle {
+  display: block;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: 'Fira Sans';
