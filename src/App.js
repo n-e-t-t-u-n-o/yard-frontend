@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import GlobalHeader from './GlobalHeader'
+import GlobalFooter from './GlobalFooter'
 
 class App extends Component {
   render() {
@@ -9,10 +10,9 @@ class App extends Component {
       <div className="App">
         <GlobalHeader />
         {/*
-        <MainLogo />
-        <Description />
-        <Footer />
-        */}
+        <DiscoverIntro />
+        <Cards />         */}
+        <GlobalFooter />
       </div>
     );
   }
