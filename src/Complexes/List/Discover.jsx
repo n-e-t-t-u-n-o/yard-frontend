@@ -33,8 +33,8 @@ const DiscoverText = styled.p`
 `;
 
 const DiscoverButtonWrapper = styled.div`
-  text-align: center;
   margin-top: 1rem;
+  text-align: center;
 `;
 
 const DiscoverButton = styled.button`

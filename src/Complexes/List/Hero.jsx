@@ -10,9 +10,9 @@ const Wrapper = styled.section`
 `;
 
 const Hero = styled.div`
+  margin: 0;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  margin: 0;
 `;
 
 const HeroLogo = styled.img `
