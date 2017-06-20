@@ -1,0 +1,219 @@
+/* GLOBAL STYLES
+——————————————————————————————————————————————*/
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.global-body {
+  background-color: #eaebf0;
+  background-image: url(../img/background.png);
+  background-size: 20px 10px;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* HEADER
+——————————————————————————————————————————————*/
+.global-header {
+  display: flex;
+  background-color: #fff;
+}
+
+.global-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.global-header-nav {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.global-header-nav-link {
+  margin-left: 2rem;
+  font-size: 1rem;
+  text-decoration: none;
+  line-height: 1;
+  color: #3e4247;
+}
+
+/* HERO
+——————————————————————————————————————————————*/
+.hero {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #161616;
+}
+
+/* DISCOVER
+——————————————————————————————————————————————*/
+
+.discover-intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #3e4247;
+}
+
+.discover-intro-title {
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.discover-intro-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.discover-intro-button {
+  padding-top: 12px;
+  padding-left: 2rem;
+  padding-bottom: 12px;
+  padding-right: 2rem;
+  border: 0;
+  border-radius: 0.125rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* CARD
+——————————————————————————————————————————————*/
+.card {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-last-item {
+  margin-bottom: 6rem;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+          box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+}
+
+.card-image {
+  flex-shrink: 0;
+  width: 484px;
+  height: 350px;
+}
+
+.card-description {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  border-bottom-color: #646971;
+  border-bottom-width: 0.125rem;
+  border-bottom-style: solid;
+    text-decoration: none;
+  background-color: #fff;
+}
+
+.card-area {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-family: Monaco, Consolas, 'Lucida Console', monospace;
+  text-transform: uppercase;
+  color: #646971;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #3e4247;
+}
+
+/* FOOTER
+——————————————————————————————————————————————*/
+.global-footer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  background-color: #111;
+}
+
+.global-footer-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  color: #646971;
+}
+
+.global-footer-text {
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  color: #a9afb6;
+}
+
+.global-footer-nav-link-all {
+  margin-top: 1.5rem;
+}
+
+.global-footer-last-item {
+  margin-top: 1.5rem;
+}
+
+.global-footer-nav-link {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.global-footer-line {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  width: 100%;
+  height: 0.125rem;
+  border-style: solid;
+  background-color: #3e4247;
+}
+
+.footer-disclaimer-text {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #a9afb6;
+}
