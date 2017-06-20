@@ -10,10 +10,15 @@ const Wrapper = styled.section`
 `;
 
 const Hero = styled.div`
-  padding: 5rem 0 5rem 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: 0;
 `;
 
-const HeroLogo = styled.img ``;
+const HeroLogo = styled.img `
+  margin: 0;
+  padding: 0;
+`;
 
 export default () => {
   return (
