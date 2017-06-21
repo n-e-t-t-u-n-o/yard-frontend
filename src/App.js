@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import "./index.css";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import {Helmet} from "react-helmet";
+import "./index.css";
 
 import GlobalHeader from './GlobalHeader'
-
 import Complexes from './Complexes/List'
-
 import GlobalFooter from './GlobalFooter'
 
 class App extends Component {
