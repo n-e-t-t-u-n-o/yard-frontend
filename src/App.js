@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./index.css";
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import {Helmet} from "react-helmet";
 
 import GlobalHeader from './GlobalHeader'
 
@@ -12,7 +13,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="CompassApp">
+          <Helmet>
+            <title>Compass Development</title>
+            <meta charset="UTF-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+          </Helmet>
           <GlobalHeader />
           <Route exact path="/" component={Complexes} />
           <GlobalFooter />
