@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './img/compass-logo.svg';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Link } from 'react-router-dom';
 
 const GlobalHeader = styled.header`
   display: flex;

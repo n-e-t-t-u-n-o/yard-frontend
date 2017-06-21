@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Link } from 'react-router-dom';
+
+import image from '../../img/bitmap1.jpg';
 
 const Card = styled.a`
   display: flex;
@@ -14,13 +17,13 @@ const Card = styled.a`
   }
 `;
 
-const CardImage = styled.img`
+const Image = styled.img`
   flex-shrink: 0;
   width: 484px;
   height: 350px;
 `;
 
-const CardDescription = styled.div`
+const Description = styled.div`
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-bottom: 1.5rem;
@@ -32,7 +35,7 @@ const CardDescription = styled.div`
   background-color: #fff;
 `;
 
-const CardArea = styled.p`
+const Area = styled.p`
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: 1rem;
@@ -41,7 +44,7 @@ const CardArea = styled.p`
   color: #646971;
 `;
 
-const CardTitle = styled.h3`
+const Title = styled.h3`
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
@@ -49,7 +52,7 @@ const CardTitle = styled.h3`
   color: #000;
 `;
 
-const CardText = styled.p`
+const Text = styled.p`
   font-size: 1rem;
   line-height: 1.5;
   color: #3e4247;
@@ -58,12 +61,12 @@ const CardText = styled.p`
 export default (props) => {
   return (
     <Card to={`/Complexes/List/${props.id}`} href="" title="">
-      <CardImage src={props.imageSrc} alt={props.imageAlt} />
-      <CardDescription>
-        <CardArea>{props.area}</CardArea>
-        <CardTitle>{props.title}</CardTitle>
-        <CardText>{props.text}</CardText>
-      </CardDescription>
+      <Image src={image} alt="" />
+      <Description>
+        <Area>{props.area}</Area>
+        <Title>{props.title}</Title>
+        <Text>One Hundred East Fifty Third Street by Foster + Partners is a limited collection of modern residences in Midtown Manhattan's Cultural District. The 94 residences ranging from alcove lofts to four bedrooms within the 63-story tower are generously proportioned.</Text>
+      </Description>
     </Card>
   )
 }
