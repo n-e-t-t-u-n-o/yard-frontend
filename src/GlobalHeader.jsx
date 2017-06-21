@@ -4,12 +4,12 @@ import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { Link } from 'react-router-dom';
 
-const GlobalHeader = styled.header`
+const Header = styled.header`
   display: flex;
   background-color: #fff;
 `;
 
-const InnerPageHeader = GlobalHeader.extend`
+const InnerPageHeader = Header.extend`
   border-bottom: 1px solid #eaebf0;
 `;
 
@@ -18,17 +18,17 @@ const Wrapper = styled.div`
   justify-content: space-between;
 `;
 
-const GlobalHeaderLogo = styled.img`
+const Logo = styled.img`
   margin: 0;
 `
 
-const HeaderNav = styled.nav`
+const Nav = styled.nav`
   display: flex;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 `;
 
-const HeaderNavLink = styled.a`
+const NavLink = styled.a`
   margin-left: 2rem;
   font-size: 1rem;
   text-decoration: none;
@@ -38,17 +38,17 @@ const HeaderNavLink = styled.a`
 
 export default () => {
   return (
-    <GlobalHeader>
+    <Header>
       <Grid>
         <Wrapper>
-          <GlobalHeaderLogo src={logo} />
-          <HeaderNav>
-            <HeaderNavLink href="" title="Buy">Buy</HeaderNavLink>
-            <HeaderNavLink href="" title="Rent">Rent</HeaderNavLink>
-            <HeaderNavLink href="" title="Our Agents">Our Agents</HeaderNavLink>
-          </HeaderNav>
+          <Logo src={logo} />
+          <Nav>
+            <NavLink href="" title="Buy">Buy</NavLink>
+            <NavLink href="" title="Rent">Rent</NavLink>
+            <NavLink href="" title="Our Agents">Our Agents</NavLink>
+          </Nav>
         </Wrapper>
       </Grid>
-    </GlobalHeader>
+    </Header>
   )
 }

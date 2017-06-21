@@ -15,7 +15,7 @@ const Hero = styled.div`
   padding-bottom: 5rem;
 `;
 
-const HeroLogo = styled.img `
+const Logo = styled.img `
   margin: 0;
   padding: 0;
 `;
@@ -24,7 +24,7 @@ export default () => {
   return (
     <Wrapper>
       <Hero>
-        <HeroLogo src={heroimage} alt="Compass Development"/>
+        <Logo src={heroimage} alt="Compass Development"/>
       </Hero>
     </Wrapper>
   )
