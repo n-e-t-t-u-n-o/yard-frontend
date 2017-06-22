@@ -60,7 +60,7 @@ const Text = styled.p`
 
 export default (props) => {
   return (
-    <Card to={`/complex/:id`} href="" title="">
+    <Card to={`/complexes/${props.id}`} href="" title="">
       <Image src={image} alt="" />
       <Description>
         <Area>{props.area}</Area>
