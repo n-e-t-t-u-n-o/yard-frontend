@@ -25,17 +25,6 @@ const Title = styled.h2`
   color: #3e4247;
 `;
 
-const DiscoverText = styled.p`
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-  padding: 0;
-  font-size: 1rem;
-  line-height: 1.4;
-`;
-
-const DiscoverButton = styled.button``;
-
 const Text = styled.p`
   margin-top: 0.5rem;
   margin-bottom: 0;
