@@ -12,6 +12,7 @@ const Card = styled(Link)`
   margin-bottom: 3rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+
   &:hover {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
   }

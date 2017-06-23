@@ -10,16 +10,21 @@ const Wrapper = styled.section`
 `;
 
 const Hero = styled.div`
-  padding: 5rem 0 5rem 0;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 `;
 
-const HeroLogo = styled.img ``;
+const Logo = styled.img`
+  margin: 0;
+  padding: 0;
+`;
 
 export default () => {
   return (
     <Wrapper>
       <Hero>
-        <HeroLogo src={heroimage} alt="Compass Development"/>
+        <Logo src={heroimage} alt="Compass Development"/>
       </Hero>
     </Wrapper>
   )
