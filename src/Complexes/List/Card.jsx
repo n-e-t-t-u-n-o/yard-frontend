@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom';
 
 import image from '../../img/bitmap1.jpg';
 
-const Card = styled.a`
+const Card = styled(Link)`
   display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+
   &:hover {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
   }
@@ -60,12 +61,12 @@ const Text = styled.p`
 
 export default (props) => {
   return (
-    <Card to={`/complexes/${props.id}`} href="" title="">
+    <Card to={`/complexes/show/${props.id}`} href="" title="">
       <Image src={image} alt="" />
       <Description>
         <Area>{props.area}</Area>
         <Title>{props.title}</Title>
-        <Text>One Hundred East Fifty Third Street by Foster + Partners is a limited collection of modern residences in Midtown Manhattan's Cultural District. The 94 residences ranging from alcove lofts to four bedrooms within the 63-story tower are generously proportioned.</Text>
+        <Text>{props.children}</Text>
       </Description>
     </Card>
   )
