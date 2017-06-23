@@ -17,7 +17,7 @@ const CardText = styled.p`
   line-height: 1.5;
   color: #3e4247;
 `;
-        
+
 export default () =>
   (
     <BodyClassName className="complexes">
