@@ -1,21 +1,27 @@
 import React, { Component } from "react";
-import "./App.css";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import {Helmet} from "react-helmet";
+import "./index.css";
 
-import GlobalHeader from './GlobalHeader'
-import Hero from './Complexes/List/Hero'
-import Discover from './Complexes/List/Discover'
-import GlobalFooter from './GlobalFooter'
+import Header from './Header'
+import Complexes from './Complexes/List'
+import Complex from './Complexes/Show'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <GlobalHeader />
-        <Hero />
-        <Discover />                 {/*
-        <Cards />         */}
-        <GlobalFooter />
-      </div>
+      <Router>
+        <div className="compass-app">
+          <Helmet>
+            <title>Compass Development</title>
+          </Helmet>
+          <Header />
+          <Route exact path="/" component={Complexes} />
+          <Route path="/show" component={Complex} />
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }

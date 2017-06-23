@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-import image from '../../img/bitmap1.jpg';
+import image1 from '../../img/bitmap4.jpg';
+import image2 from '../../img/bitmap5.jpg';
+import image3 from '../../img/bitmap6.jpg';
+import image4 from '../../img/bitmap7.jpg';
+import image5 from '../../img/bitmap8.jpg';
 
 const Gallery = styled.section``;
 
@@ -12,7 +16,7 @@ const Images = styled.div`
   white-space: nowrap;
 `;
 
-const GallryImage = styled.img`
+const GalleryImage = styled.img`
   height: 400px;
 `;
 
@@ -43,7 +47,16 @@ export default () => {
   return (
     <Gallery>
       <Images>
-        <GalleryImage src={image} alt=""/>
+        <GalleryImage src={image1} alt=""/>
+        <GalleryImage src={image2} alt=""/>
+        <GalleryImage src={image3} alt=""/>
+        <GalleryImage src={image4} alt=""/>
+        <GalleryImage src={image5} alt=""/>
+        <GalleryImage src={image1} alt=""/>
+        <GalleryImage src={image2} alt=""/>
+        <GalleryImage src={image3} alt=""/>
+        <GalleryImage src={image4} alt=""/>
+        <GalleryImage src={image5} alt=""/>
       </Images>
       <Grid>
         <Row>

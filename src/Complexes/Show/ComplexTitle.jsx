@@ -32,7 +32,7 @@ const Subtitle = styled.p`
 
 const Favorite = styled.div``;
 
-const AddToFav - styled.button`
+const AddToFav = styled.button`
   margin-right: 0.5rem;
   padding-top: 0.5rem;
   padding-left: 1rem;
@@ -53,8 +53,8 @@ export default () => {
   return (
     <Header>
       <Grid>
-        <Row between={lg}>
-          <Col>
+        <Row between="lg">
+          <Col lg={10}>
             <Title>Жилой комплекс &laquo;Полянка/44&raquo;</Title>
             <Subtitle>Район Якиманка, улица Большая Полянка, дом 44 &middot; 119180</Subtitle>
           </Col>

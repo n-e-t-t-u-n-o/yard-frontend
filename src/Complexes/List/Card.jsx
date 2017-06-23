@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import image from '../../img/bitmap1.jpg';
 
-const Card = styled.a`
+const Card = styled(Link)`
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +60,7 @@ const Text = styled.p`
 
 export default (props) => {
   return (
-    <Card to={`/complexes/${props.id}`} href="" title="">
+    <Card to={`/complexes/show/${props.id}`} href="" title="">
       <Image src={image} alt="" />
       <Description>
         <Area>{props.area}</Area>
