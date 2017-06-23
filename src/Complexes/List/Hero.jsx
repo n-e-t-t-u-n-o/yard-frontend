@@ -15,7 +15,7 @@ const Hero = styled.div`
   padding-bottom: 5rem;
 `;
 
-const Logo = styled.img`
+const Logo = styled.img `
   margin: 0;
   padding: 0;
 `;

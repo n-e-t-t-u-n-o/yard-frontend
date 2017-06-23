@@ -14,3 +14,7 @@ body {
   background-image: url(./img/background.png);
   background-size: 20px 10px;;
 }
+
+.complex {
+  background-color: #fff;
+}

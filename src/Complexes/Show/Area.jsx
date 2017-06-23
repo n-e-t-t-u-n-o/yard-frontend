@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-import guidearrow from '../../img/footer-arrow.svg';
+import guidearrow from '../../img/arrow-blue.svg';
 import yakimanka from '../../img/yakimanka.png';
 
 const Area = styled.section`
@@ -56,7 +56,7 @@ export default () => {
             <Wrapper>
               <Title>Якиманка</Title>
               <Text>Исторический центр Москвы в двух километрах от Кремля</Text>
-              <Guide>Гид по Якиманке&nbsp;<img src={guidearrow} alt="Гид по Якиманке"/></Guide>
+              <Guide href="">Гид по Якиманке&nbsp;<img src={guidearrow} alt="Гид по Якиманке"/></Guide>
             </Wrapper>
           </Col>
 
