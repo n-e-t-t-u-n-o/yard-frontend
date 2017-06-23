@@ -8,7 +8,6 @@ const Discover = styled.div`
 
 const Wrapper = styled.div`
   display: flex;
-<<<<<<< HEAD
   padding-top: 4rem;
   padding-left: 0;
   padding-right: 0;
@@ -35,7 +34,7 @@ const DiscoverText = styled.p`
   line-height: 1.4;
 `;
 
-const DiscoverButton = styled.button`
+const DiscoverButton = styled.button``;
 
 const Text = styled.p`
   margin-top: 0.5rem;
@@ -85,10 +84,9 @@ export default () => {
             <ButtonWrapper>
               <Button>Contact The Team</Button>
             </ButtonWrapper>
->>>>>>> 9ecdd3d8bf83a6cbe7a9cc6437c542cb5ac7a05d
           </Col>
         </Wrapper>
       </Grid>
     </Discover>
   )
-}
+};
