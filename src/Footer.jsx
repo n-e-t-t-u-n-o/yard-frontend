@@ -80,7 +80,7 @@ export default () => {
             <GlobalFooterTextLastItem>+7 (999) 821-14-88</GlobalFooterTextLastItem>
           </Col>
 
-          <Col lg={4}>
+          <Col lg={2}>
             <GlobalFooterLine/>
             <GlobalFooterTitle>Жилые комплексы</GlobalFooterTitle>
             <GlobalFooterNav>
@@ -91,7 +91,7 @@ export default () => {
             </GlobalFooterNav>
           </Col>
 
-          <Col lg={4}>
+          <Col lg={2}>
             <GlobalFooterLine/>
             <GlobalFooterTitle>Компания</GlobalFooterTitle>
             <GlobalFooterNav>

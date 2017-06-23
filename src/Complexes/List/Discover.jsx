@@ -6,11 +6,12 @@ const Discover = styled.section`
 `;
 
 const Wrapper = styled.div`
-  font-family: "Fira Sans";
   display: flex;
+  padding-top: 4rem;
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
   justify-content: center;
-  padding: 4rem 0 4rem 0;
 `;
 
 const DiscoverTitle = styled.h2`
@@ -22,33 +23,41 @@ const DiscoverTitle = styled.h2`
 `;
 
 const DiscoverText = styled.p`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 0;
   font-size: 1rem;
-  line-height: 1.5;
-  color: #3e4247;
-  margin: 0.5rem 0 1rem 0;
+  line-height: 1.4;
 `;
 
 const DiscoverButton = styled.button`
-  border-radius: 2px;
-  border: 0px;
-  background-color: #000000;
-  padding: 0.8125rem 2rem 0.8125rem 2rem;
-  color: white;
+  padding-top: 12px;
+  padding-left: 2rem;
+  padding-bottom: 12px;
+  padding-right: 2rem;
+  border: 0;
+  border-radius: 0.125rem;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   line-height: 1;
-  font-family: 'Fira Sans', sans-serif;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 `;
 
 export default () => {
   return (
     <Discover>
-      <Wrapper>
-        <Col lg={8}>
-          <DiscoverTitle>Discover Our New Developments</DiscoverTitle>
-          <DiscoverText>Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</DiscoverText>
-          <DiscoverButton>Contact The Team</DiscoverButton>
-        </Col>
-      </Wrapper>
+      <Grid>
+        <Wrapper>
+          <Col lg={8}>
+            <DiscoverTitle>Discover Our New Developments</DiscoverTitle>
+            <DiscoverText>Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</DiscoverText>
+            <DiscoverButton>Contact The Team</DiscoverButton>
+          </Col>
+        </Wrapper>
+      </Grid>
     </Discover>
   )
 }
