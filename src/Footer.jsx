@@ -4,13 +4,13 @@ import footerarrow from './img/footer-arrow.svg';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-const GlobalFooter = styled.footer`
+const Footer = styled.footer`
   margin-top: 2rem;
   padding-top: 2rem;
   background-color: #111;
 `;
 
-const GlobalFooterTitle = styled.h4`
+const Title = styled.h4`
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 14px;
@@ -19,7 +19,7 @@ const GlobalFooterTitle = styled.h4`
   color: #646971;
 `;
 
-const GlobalFooterText = styled.p`
+const Text = styled.p`
   margin-bottom: 0.25rem;
   font-size: 14px;
   font-weight: 300;
@@ -27,11 +27,11 @@ const GlobalFooterText = styled.p`
   color: #a9afb6;
 `;
 
-const GlobalFooterTextLastItem = GlobalFooterText.extend`
+const TextLastItem = Text.extend`
   margin-top: 1.5rem;
 `;
 
-const GlobalFooterLine = styled.hr`
+const Line = styled.hr`
   margin-top: 0;
   margin-bottom: 1.25rem;
   width: 100%;
@@ -40,9 +40,9 @@ const GlobalFooterLine = styled.hr`
   background-color: #3e4247;
 `;
 
-const GlobalFooterNav = styled.nav``;
+const Nav = styled.nav``;
 
-const GlobalFooterNavLink = styled.a`
+const NavLink = styled.a`
   display: block;
   margin-bottom: 1rem;
   font-size: 14px;
@@ -52,13 +52,13 @@ const GlobalFooterNavLink = styled.a`
   color: #fff;
 `;
 
-const GlobalFooterNavLinkLastItem = GlobalFooterNavLink.extend`
+const NavLinkLastItem = NavLink.extend`
   margin-top: 1.5rem;
 `;
 
-const GlobalFooterArrow = styled.img``;
+const Arrow = styled.img``;
 
-const GlobalFooterDisclaimer = styled.p`
+const Disclaimer = styled.p`
   margin-top: 5rem;
   margin-bottom: 2rem;
   padding: 0;
@@ -70,43 +70,43 @@ const GlobalFooterDisclaimer = styled.p`
 
 export default () => {
   return (
-    <GlobalFooter>
+    <Footer>
       <Grid>
         <Row>
           <Col lg={4}>
-            <GlobalFooterTitle>ООО &laquo;Ярд&raquo;</GlobalFooterTitle>
-            <GlobalFooterText>ОГРН 1175074002531</GlobalFooterText>
-            <GlobalFooterText>ИНН 5036165365</GlobalFooterText>
-            <GlobalFooterTextLastItem>+7 (999) 821-14-88</GlobalFooterTextLastItem>
+            <Title>ООО &laquo;Ярд&raquo;</Title>
+            <Text>ОГРН 1175074002531</Text>
+            <Text>ИНН 5036165365</Text>
+            <TextLastItem>+7 (999) 821-14-88</TextLastItem>
           </Col>
 
           <Col lg={2}>
-            <GlobalFooterLine/>
-            <GlobalFooterTitle>Жилые комплексы</GlobalFooterTitle>
-            <GlobalFooterNav>
-              <GlobalFooterNavLink href="" title="ВТБ Арена Парк">ВТБ Арена Парк</GlobalFooterNavLink>
-              <GlobalFooterNavLink href="" title="Садовые кварталы">Садовые кварталы</GlobalFooterNavLink>
-              <GlobalFooterNavLink href="" title="Резиденция Монэ">Резиденция Монэ</GlobalFooterNavLink>
-              <GlobalFooterNavLinkLastItem href="">Все ЖК Москвы&nbsp;<GlobalFooterArrow src={footerarrow} alt="Все ЖК Москвы"/></GlobalFooterNavLinkLastItem>
-            </GlobalFooterNav>
+            <Line/>
+            <Title>Жилые комплексы</Title>
+            <Nav>
+              <NavLink href="" title="ВТБ Арена Парк">ВТБ Арена Парк</NavLink>
+              <NavLink href="" title="Садовые кварталы">Садовые кварталы</NavLink>
+              <NavLink href="" title="Резиденция Монэ">Резиденция Монэ</NavLink>
+              <NavLinkLastItem href="">Все ЖК Москвы&nbsp;<Arrow src={footerarrow} alt="Все ЖК Москвы"/></NavLinkLastItem>
+            </Nav>
           </Col>
 
           <Col lg={2}>
-            <GlobalFooterLine/>
-            <GlobalFooterTitle>Компания</GlobalFooterTitle>
-            <GlobalFooterNav>
-              <GlobalFooterNavLink href="" title="Команда">Команда</GlobalFooterNavLink>
-              <GlobalFooterNavLink href="" title="О компании">О компании</GlobalFooterNavLink>
-            </GlobalFooterNav>
+            <Line/>
+            <Title>Компания</Title>
+            <Nav>
+              <NavLink href="" title="Команда">Команда</NavLink>
+              <NavLink href="" title="О компании">О компании</NavLink>
+            </Nav>
           </Col>
         </Row>
 
         <Row>
           <Col lgOffset={4} lg={8}>
-            <GlobalFooterDisclaimer>Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ. &copy; ООО &laquo;Ярд&raquo;, 2017</GlobalFooterDisclaimer>
+            <Disclaimer>Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ. &copy; ООО &laquo;Ярд&raquo;, 2017</Disclaimer>
           </Col>
         </Row>
       </Grid>
-    </GlobalFooter>
+    </Footer>
   )
 }

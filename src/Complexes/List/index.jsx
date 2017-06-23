@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import BodyClassName from 'react-body-classname';
+import { Helmet } from "react-helmet";
 
 import Hero from './Hero';
 import Discover from './Discover';
@@ -17,6 +18,7 @@ const CardText = styled.p`
   line-height: 1.5;
   color: #3e4247;
 `;
+
 export default () =>
   (
     <BodyClassName className="complexes">

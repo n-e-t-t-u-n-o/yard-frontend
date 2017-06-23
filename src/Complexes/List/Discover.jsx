@@ -8,7 +8,6 @@ const Discover = styled.div`
 
 const Wrapper = styled.div`
   display: flex;
-<<<<<<< HEAD
   padding-top: 4rem;
   padding-left: 0;
   padding-right: 0;
@@ -25,17 +24,6 @@ const Title = styled.h2`
   line-height: 1.5;
   color: #3e4247;
 `;
-
-const DiscoverText = styled.p`
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-  padding: 0;
-  font-size: 1rem;
-  line-height: 1.4;
-`;
-
-const DiscoverButton = styled.button`
 
 const Text = styled.p`
   margin-top: 0.5rem;
@@ -58,9 +46,6 @@ const Button = styled.button`
   padding-left: 2rem;
   padding-bottom: 12px;
   padding-right: 2rem;
-  border: 0;
-  border-radius: 0.125rem;
-  font-family: 'Fira Sans', sans-serif;
   background-color: #000;
   color: #fff;
   font-family: "Fira Sans", sans-serif;
@@ -69,9 +54,6 @@ const Button = styled.button`
   border-style: none;
   border-radius: 2px;
   line-height: 1;
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
 `;
 
 export default () => {
@@ -85,7 +67,6 @@ export default () => {
             <ButtonWrapper>
               <Button>Contact The Team</Button>
             </ButtonWrapper>
->>>>>>> 9ecdd3d8bf83a6cbe7a9cc6437c542cb5ac7a05d
           </Col>
         </Wrapper>
       </Grid>
