@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-const Discover = styled.section`
+const Discover = styled.div`
+  margin-top: 3.5rem;
 `;
 
 const Wrapper = styled.div`
@@ -14,12 +15,14 @@ const Wrapper = styled.div`
   justify-content: center;
 `;
 
-const DiscoverTitle = styled.h2`
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #3e4247;
-  line-height: 2.3125rem;
+const Title = styled.h2`
   margin: 0;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #3e4247;
 `;
 
 const DiscoverText = styled.p`
@@ -39,7 +42,13 @@ const DiscoverButton = styled.button`
   border: 0;
   border-radius: 0.125rem;
   font-family: 'Fira Sans', sans-serif;
+  background-color: #000;
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
   font-size: 1rem;
+  border-style: none;
+  border-radius: 2px;
   line-height: 1;
   background-color: #000;
   color: #fff;
