@@ -45,9 +45,6 @@ const Button = styled.button`
   padding-left: 2rem;
   padding-bottom: 12px;
   padding-right: 2rem;
-  border: 0;
-  border-radius: 0.125rem;
-  font-family: 'Fira Sans', sans-serif;
   background-color: #000;
   color: #fff;
   font-family: "Fira Sans", sans-serif;
@@ -56,9 +53,6 @@ const Button = styled.button`
   border-style: none;
   border-radius: 2px;
   line-height: 1;
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
 `;
 
 export default () => {
