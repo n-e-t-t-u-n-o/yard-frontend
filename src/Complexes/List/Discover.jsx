@@ -8,7 +8,6 @@ const Discover = styled.div`
 
 const Wrapper = styled.div`
   display: flex;
-  padding-top: 4rem;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
