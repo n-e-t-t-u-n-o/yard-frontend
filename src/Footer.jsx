@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './img/compass-logo.svg';
-import footerarrow from './img/footer-arrow.svg';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+
+import footerarrow from './img/footer-arrow.svg';
 
 const Footer = styled.footer`
   margin-top: 2rem;
@@ -68,46 +68,51 @@ const Disclaimer = styled.p`
   color: #a9afb6;
 `;
 
-export default () => {
-  return (
-    <Footer>
-      <Grid>
-        <Row>
-          <Col lg={4}>
-            <Title>ООО &laquo;Ярд&raquo;</Title>
-            <Text>ОГРН 1175074002531</Text>
-            <Text>ИНН 5036165365</Text>
-            <TextLastItem>+7 (999) 821-14-88</TextLastItem>
-          </Col>
+export default () => (
+  <Footer>
+    <Grid>
+      <Row>
+        <Col lg={4}>
+          <Title>ООО «Ярд»</Title>
+          <Text>ОГРН 1175074002531</Text>
+          <Text>ИНН 5036165365</Text>
+          <TextLastItem>+7 (999) 821-14-88</TextLastItem>
+        </Col>
 
-          <Col lg={2}>
-            <Line/>
-            <Title>Жилые комплексы</Title>
-            <Nav>
-              <NavLink href="" title="ВТБ Арена Парк">ВТБ Арена Парк</NavLink>
-              <NavLink href="" title="Садовые кварталы">Садовые кварталы</NavLink>
-              <NavLink href="" title="Резиденция Монэ">Резиденция Монэ</NavLink>
-              <NavLinkLastItem href="">Все ЖК Москвы&nbsp;<Arrow src={footerarrow} alt="Все ЖК Москвы"/></NavLinkLastItem>
-            </Nav>
-          </Col>
+        <Col lg={2}>
+          <Line />
+          <Title>Жилые комплексы</Title>
+          <Nav>
+            <NavLink href="" title="ВТБ Арена Парк">ВТБ Арена Парк</NavLink>
+            <NavLink href="" title="Садовые кварталы">Садовые кварталы</NavLink>
+            <NavLink href="" title="Резиденция Монэ">Резиденция Монэ</NavLink>
+            <NavLinkLastItem href="">
+              Все ЖК Москвы&nbsp;
+              <Arrow src={footerarrow} alt="Все ЖК Москвы" />
+            </NavLinkLastItem>
+          </Nav>
+        </Col>
 
-          <Col lg={2}>
-            <Line/>
-            <Title>Компания</Title>
-            <Nav>
-              <NavLink href="" title="Команда">Команда</NavLink>
-              <NavLink href="" title="О компании">О компании</NavLink>
-            </Nav>
-          </Col>
-        </Row>
+        <Col lg={2}>
+          <Line />
+          <Title>Компания</Title>
+          <Nav>
+            <NavLink href="" title="Команда">Команда</NavLink>
+            <NavLink href="" title="О компании">О компании</NavLink>
+          </Nav>
+        </Col>
+      </Row>
 
-        <Row>
-          <Col lgOffset={4} lg={8}>
-            <Disclaimer>Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 ГК РФ. &copy; ООО &laquo;Ярд&raquo;, 2017</Disclaimer>
-          </Col>
-        </Row>
-      </Grid>
-    </Footer>
-  )
-}
-
+      <Row>
+        <Col lgOffset={4} lg={8}>
+          <Disclaimer>
+            Любая информация, представленная на данном сайте,
+            носит исключительно информационный характер и ни при каких
+            условиях не является публичной офертой, определяемой положениями
+            статьи 437 ГК РФ. © ООО «Ярд», 2017
+          </Disclaimer>
+        </Col>
+      </Row>
+    </Grid>
+  </Footer>
+);

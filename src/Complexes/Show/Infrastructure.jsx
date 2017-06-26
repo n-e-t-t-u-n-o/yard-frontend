@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const Infrastructure = styled.section`
@@ -24,7 +24,7 @@ const Title = styled.h2`
 
 const Units = styled.div`
   margin-top: 0.25rem;
-;`
+`;
 
 const Unit = styled.p`
   margin-top: 0;
@@ -33,45 +33,43 @@ const Unit = styled.p`
   color: #3e4247;
 `;
 
-export default () => {
-  return (
-    <Infrastructure>
-      <Grid>
-        <Wrapper>
-          <Title>Инфраструктура</Title>
-          <Units>
-            <Row>
-              <Col lg={2}>
-                <Unit>Бассейн</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Детский сад</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Частная школа</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Бассейн</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Детский сад</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Частная школа</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Частная школа</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Частная школа</Unit>
-              </Col>
-              <Col lg={2}>
-                <Unit>Частная школа</Unit>
-              </Col>
-            </Row>
-          </Units>
-        </Wrapper>
-      </Grid>
-    </Infrastructure>
-  )
-}
+export default () => (
+  <Infrastructure>
+    <Grid>
+      <Wrapper>
+        <Title>Инфраструктура</Title>
+        <Units>
+          <Row>
+            <Col lg={2}>
+              <Unit>Бассейн</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Детский сад</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Частная школа</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Бассейн</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Детский сад</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Частная школа</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Частная школа</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Частная школа</Unit>
+            </Col>
+            <Col lg={2}>
+              <Unit>Частная школа</Unit>
+            </Col>
+          </Row>
+        </Units>
+      </Wrapper>
+    </Grid>
+  </Infrastructure>
+);

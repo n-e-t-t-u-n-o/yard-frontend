@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import BodyClassName from 'react-body-classname';
 
@@ -8,10 +8,10 @@ import Gallery from './Gallery';
 import Features from './Features';
 import Summary from './Summary';
 import Description from './Description';
-import Infrastructure from './Infrastructure'
+import Infrastructure from './Infrastructure';
 import OfferCard from './OfferCard';
-import Area from './Area'
-import ComplexMap from './ComplexMap'
+import Area from './Area';
+import ComplexMap from './ComplexMap';
 
 const OfferCards = styled.section`
   padding-top: 3.75rem;
@@ -27,33 +27,32 @@ const OffersTitle = styled.h2`
   color: #3e4247;
 `;
 
-export default () =>
-  (
-    <BodyClassName className="complex">
-      <div>
-        <ComplexTitle/>
-        <Gallery/>
-        <Features/>
-        <Summary/>
-        <Description/>
-        <Infrastructure/>
+export default () => (
+  <BodyClassName className="complex">
+    <div>
+      <ComplexTitle />
+      <Gallery />
+      <Features />
+      <Summary />
+      <Description />
+      <Infrastructure />
 
-        <OfferCards>
-          <Grid>
-            <Row center="lg">
-             <OffersTitle>Предложения в ЖК &laquo;Полянка/44&raquo;</OffersTitle>
-            </Row>
-            <Row>
-              <Col lg={4}><OfferCard id={1}/></Col>
-              <Col lg={4}><OfferCard id={2}/></Col>
-              <Col lg={4}><OfferCard id={3}/></Col>
-            </Row>
-          </Grid>
-        </OfferCards>
+      <OfferCards>
+        <Grid>
+          <Row center="lg">
+            <OffersTitle>Предложения в ЖК «Полянка/44»</OffersTitle>
+          </Row>
+          <Row>
+            <Col lg={4}><OfferCard id={1} /></Col>
+            <Col lg={4}><OfferCard id={2} /></Col>
+            <Col lg={4}><OfferCard id={3} /></Col>
+          </Row>
+        </Grid>
+      </OfferCards>
 
-        <Area/>
-        <ComplexMap/>
+      <Area />
+      <ComplexMap />
 
-      </div>
-    </BodyClassName>
-  );
+    </div>
+  </BodyClassName>
+);

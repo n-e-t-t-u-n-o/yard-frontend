@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import mapimage from '../../img/googlemap.png';
@@ -25,7 +25,7 @@ const Item = styled.div`
   padding-bottom: 1.5rem;
   background-color: #fff;
   border-bottom: solid 1px #e0e0e1;
-`;  
+`;
 
 const LastItem = styled.div`
   padding-top: 1.5rem;
@@ -51,14 +51,13 @@ const Text = styled.p`
   color: #a9afb6;
 `;
 
-export default () => {
-  return (
+export default () => (
   <ComplexMap>
     <Grid>
       <Row>
 
         <Col lg={6}>
-          <MapImage src={mapimage} alt=""/>
+          <MapImage src={mapimage} alt="" />
         </Col>
 
         <Col lg={6}>
@@ -81,5 +80,4 @@ export default () => {
       </Row>
     </Grid>
   </ComplexMap>
-  )
-}
+);
