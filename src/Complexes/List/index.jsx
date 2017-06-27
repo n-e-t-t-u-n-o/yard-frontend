@@ -27,11 +27,7 @@ export default () => (
             individually unique and luxury loft apartments.
           </Card>
 
-          <Card
-            id={2}
-            area="Midtown East, Manhattan"
-            title="100 East 53rd Street"
-          >
+          <Card id={2} area="Midtown East, Manhattan" title="100 East 53rd Street">
             One Hundred East Fifty Third Street by Foster + Partners is a
             limited collection of modern residences in Midtown Manhattan’s
             Cultural District. The 94 residences ranging from alcove lofts to
