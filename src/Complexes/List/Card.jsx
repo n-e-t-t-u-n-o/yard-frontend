@@ -59,7 +59,7 @@ const Text = styled.p`
 `;
 
 export default props => (
-  <Card to={`/complexes/show/${props.id}`} title="">
+  <Card to="complexes/show" title="">
     <Image src={image} alt="" />
     <Description>
       <Area>{props.area}</Area>
