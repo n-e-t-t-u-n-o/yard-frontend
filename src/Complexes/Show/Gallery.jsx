@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
+import { Grid, Row } from 'react-flexbox-grid';
 
 import image1 from '../../img/bitmap4.jpg';
 import image2 from '../../img/bitmap5.jpg';
@@ -43,28 +43,26 @@ const ViewAll = styled.button`
   cursor: pointer;
 `;
 
-export default () => {
-  return (
-    <Gallery>
-      <Images>
-        <GalleryImage src={image1} alt=""/>
-        <GalleryImage src={image2} alt=""/>
-        <GalleryImage src={image3} alt=""/>
-        <GalleryImage src={image4} alt=""/>
-        <GalleryImage src={image5} alt=""/>
-        <GalleryImage src={image1} alt=""/>
-        <GalleryImage src={image2} alt=""/>
-        <GalleryImage src={image3} alt=""/>
-        <GalleryImage src={image4} alt=""/>
-        <GalleryImage src={image5} alt=""/>
-      </Images>
-      <Grid>
-        <Row>
-          <ButtonWrapper>
-            <ViewAll>41 фотография</ViewAll>
-          </ButtonWrapper>
-        </Row>
-      </Grid>
-    </Gallery>
-  )
-}
+export default () => (
+  <Gallery>
+    <Images>
+      <GalleryImage src={image1} alt="" />
+      <GalleryImage src={image2} alt="" />
+      <GalleryImage src={image3} alt="" />
+      <GalleryImage src={image4} alt="" />
+      <GalleryImage src={image5} alt="" />
+      <GalleryImage src={image1} alt="" />
+      <GalleryImage src={image2} alt="" />
+      <GalleryImage src={image3} alt="" />
+      <GalleryImage src={image4} alt="" />
+      <GalleryImage src={image5} alt="" />
+    </Images>
+    <Grid>
+      <Row>
+        <ButtonWrapper>
+          <ViewAll>41 фотография</ViewAll>
+        </ButtonWrapper>
+      </Row>
+    </Grid>
+  </Gallery>
+);

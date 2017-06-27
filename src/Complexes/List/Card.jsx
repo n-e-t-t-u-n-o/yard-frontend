@@ -1,6 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import image from '../../img/bitmap1.jpg';
@@ -59,15 +58,13 @@ const Text = styled.p`
   color: #3e4247;
 `;
 
-export default (props) => {
-  return (
-    <Card to={`/complexes/show/${props.id}`} title="">
-      <Image src={image} alt="" />
-      <Description>
-        <Area>{props.area}</Area>
-        <Title>{props.title}</Title>
-        <Text>{props.children}</Text>
-      </Description>
-    </Card>
-  )
-}
+export default props => (
+  <Card to="complexes/show" title="">
+    <Image src={image} alt="" />
+    <Description>
+      <Area>{props.area}</Area>
+      <Title>{props.title}</Title>
+      <Text>{props.children}</Text>
+    </Description>
+  </Card>
+);

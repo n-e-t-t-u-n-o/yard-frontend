@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
+import { Grid, Col } from 'react-flexbox-grid';
 
 const Discover = styled.div`
   margin-top: 3.5rem;
@@ -55,20 +55,22 @@ const Button = styled.button`
   line-height: 1;
 `;
 
-export default () => {
-  return (
-    <Discover>
-      <Grid>
-        <Wrapper>
-          <Col lg={8}>
-            <Title> Our New Developments</Title>
-            <Text>Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</Text>
-            <ButtonWrapper>
-              <Button>Contact The Team</Button>
-            </ButtonWrapper>
-          </Col>
-        </Wrapper>
-      </Grid>
-    </Discover>
-  )
-};
+export default () => (
+  <Discover>
+    <Grid>
+      <Wrapper>
+        <Col lg={8}>
+          <Title> Our New Developments</Title>
+          <Text>
+            Compass brings a modern approach to new development marketing and sales.
+            From boutique rental conversions to luxurious ground-up condominiums,
+            browse our portfolio of current offerings.
+          </Text>
+          <ButtonWrapper>
+            <Button>Contact The Team</Button>
+          </ButtonWrapper>
+        </Col>
+      </Wrapper>
+    </Grid>
+  </Discover>
+);

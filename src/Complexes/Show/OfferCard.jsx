@@ -1,6 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Card = styled.div`
   margin-top: 1rem;
@@ -57,15 +56,13 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-export default (props) => {
-  return (
-    <Card>
-      <Title>1-комнатные квартиры</Title>
-      <Subtitle>Площадь</Subtitle>
-      <Text>от 59 до 120 м<sup>2</sup></Text>
-      <Subtitle>Стоимость</Subtitle>
-      <Text>от 20.3 до 84.2 млн руб</Text>
-      <ButtonWrapper><Button>Посмотреть предложения</Button></ButtonWrapper>
-    </Card>
-  )
-}
+export default props => (
+  <Card to={`/complexes/show/${props.id}`}>
+    <Title>1-комнатные квартиры</Title>
+    <Subtitle>Площадь</Subtitle>
+    <Text>от 59 до 120 м<sup>2</sup></Text>
+    <Subtitle>Стоимость</Subtitle>
+    <Text>от 20.3 до 84.2 млн руб</Text>
+    <ButtonWrapper><Button>Посмотреть предложения</Button></ButtonWrapper>
+  </Card>
+);

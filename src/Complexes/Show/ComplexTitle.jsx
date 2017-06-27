@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const Header = styled.section`
@@ -49,20 +49,20 @@ const AddToFav = styled.button`
   cursor: pointer;
 `;
 
-export default () => {
-  return (
-    <Header>
-      <Grid>
-        <Row between="lg">
-          <Col lg={10}>
-            <Title>Жилой комплекс &laquo;Полянка/44&raquo;</Title>
-            <Subtitle>Район Якиманка, улица Большая Полянка, дом 44 &middot; 119180</Subtitle>
-          </Col>
-          <Favorite>
-            <AddToFav>В избранное</AddToFav>
-          </Favorite>
-        </Row>
-      </Grid>
-    </Header>
-  )
-}
+export default () => (
+  <Header>
+    <Grid>
+      <Row between="lg">
+        <Col lg={10}>
+          <Title>Жилой комплекс «Полянка/44»</Title>
+          <Subtitle>
+            Район Якиманка, улица Большая Полянка, дом 44 · 119180
+          </Subtitle>
+        </Col>
+        <Favorite>
+          <AddToFav>В избранное</AddToFav>
+        </Favorite>
+      </Row>
+    </Grid>
+  </Header>
+);

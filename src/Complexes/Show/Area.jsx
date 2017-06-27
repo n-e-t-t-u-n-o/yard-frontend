@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 import guidearrow from '../../img/arrow-blue.svg';
@@ -46,26 +46,27 @@ const AreaImage = styled.img`
   width: 100%;
 `;
 
-export default () => {
-  return (
-    <Area>
-      <Grid>
-        <Row between="lg">
+export default () => (
+  <Area>
+    <Grid>
+      <Row between="lg">
 
-          <Col lg={6}>
-            <Wrapper>
-              <Title>Якиманка</Title>
-              <Text>Исторический центр Москвы в двух километрах от Кремля</Text>
-              <Guide href="">Гид по Якиманке&nbsp;<img src={guidearrow} alt="Гид по Якиманке"/></Guide>
-            </Wrapper>
-          </Col>
+        <Col lg={6}>
+          <Wrapper>
+            <Title>Якиманка</Title>
+            <Text>Исторический центр Москвы в двух километрах от Кремля</Text>
+            <Guide href="">
+              Гид по Якиманке&nbsp;
+              <img src={guidearrow} alt="Гид по Якиманке" />
+            </Guide>
+          </Wrapper>
+        </Col>
 
-          <Col lg={6}>
-            <AreaImage src={yakimanka} alt="Якиманка"/>
-          </Col>
+        <Col lg={6}>
+          <AreaImage src={yakimanka} alt="Якиманка" />
+        </Col>
 
-        </Row>
-      </Grid>
-    </Area>
-  )
-}
+      </Row>
+    </Grid>
+  </Area>
+);

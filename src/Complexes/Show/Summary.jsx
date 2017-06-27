@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const Summary = styled.section`
@@ -49,58 +49,56 @@ const Amount = styled.dt`
   color: #3e4247;
 `;
 
-export default () => {
-  return (
-    <Summary>
-      <Grid>
-        <SummaryTitle>Характеристики:</SummaryTitle>
-        <Wrapper>
-          <Row>
-            <Col lg={4}>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-              <Unit>
-                <Title>Статус:</Title>
-                <Amount>Квартиры</Amount>
-              </Unit>
-              <Unit>
-                <Title>Цены:</Title>
-                <Amount>от 5.3 млн до 14.5 млн</Amount>
-              </Unit>
-            </Col>
-            <Col lg={4}>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-            </Col>
-            <Col lg={4}>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-              <Unit>
-                <Title>Количество квартир:</Title>
-                <Amount>1&thinsp;503</Amount>
-              </Unit>
-            </Col>
-          </Row>
-        </Wrapper>
-      </Grid>
-    </Summary>
-  )
-}
+export default () => (
+  <Summary>
+    <Grid>
+      <SummaryTitle>Характеристики:</SummaryTitle>
+      <Wrapper>
+        <Row>
+          <Col lg={4}>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+            <Unit>
+              <Title>Статус:</Title>
+              <Amount>Квартиры</Amount>
+            </Unit>
+            <Unit>
+              <Title>Цены:</Title>
+              <Amount>от 5.3 млн до 14.5 млн</Amount>
+            </Unit>
+          </Col>
+          <Col lg={4}>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+          </Col>
+          <Col lg={4}>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+            <Unit>
+              <Title>Количество квартир:</Title>
+              <Amount>1 503</Amount>
+            </Unit>
+          </Col>
+        </Row>
+      </Wrapper>
+    </Grid>
+  </Summary>
+);

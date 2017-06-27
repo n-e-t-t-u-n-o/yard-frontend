@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components'
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
+import { Grid } from 'react-flexbox-grid';
 
 const Features = styled.section``;
 
@@ -40,32 +40,33 @@ const Subtitle = styled.small`
   line-height: 1;
 `;
 
-export default () => {
-  return (
-    <Features>
-      <Grid>
-        <Wrapper>
+export default () => (
+  <Features>
+    <Grid>
+      <Wrapper>
 
-          <Unit>
-            <Title>950
-              <Subtitle>предложений</Subtitle>
-            </Title>
-          </Unit>
+        <Unit>
+          <Title>
+            950
+            <Subtitle>предложений</Subtitle>
+          </Title>
+        </Unit>
 
-          <Unit>
-            <Title>John McAslan + Partners
-              <Subtitle>архитектор</Subtitle>
-            </Title>
-          </Unit>
+        <Unit>
+          <Title>
+            John McAslan + Partners
+            <Subtitle>архитектор</Subtitle>
+          </Title>
+        </Unit>
 
-          <Unit>
-            <Title>Группа &laquo;ПСН&raquo;
-              <Subtitle>застройщик</Subtitle>
-            </Title>
-          </Unit>
+        <Unit>
+          <Title>
+            Группа «ПСН»
+            <Subtitle>застройщик</Subtitle>
+          </Title>
+        </Unit>
 
-        </Wrapper>
-      </Grid>
-    </Features>
-  )
-}
+      </Wrapper>
+    </Grid>
+  </Features>
+);

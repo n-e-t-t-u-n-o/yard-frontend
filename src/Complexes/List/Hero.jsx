@@ -1,7 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
+
 import heroimage from '../../img/compass-development-logo.svg';
-import styled from 'styled-components'
-import { Grid, Row, Col } from 'react-flexbox-grid';
 
 const Wrapper = styled.section`
   display: flex;
@@ -15,17 +15,15 @@ const Hero = styled.div`
   padding-bottom: 5rem;
 `;
 
-const Logo = styled.img `
+const Logo = styled.img`
   margin: 0;
   padding: 0;
 `;
 
-export default () => {
-  return (
-    <Wrapper>
-      <Hero>
-        <Logo src={heroimage} alt="Compass Development"/>
-      </Hero>
-    </Wrapper>
-  )
-}
+export default () => (
+  <Wrapper>
+    <Hero>
+      <Logo src={heroimage} alt="Compass Development" />
+    </Hero>
+  </Wrapper>
+);
