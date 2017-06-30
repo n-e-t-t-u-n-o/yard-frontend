@@ -43,6 +43,7 @@ class List extends Component {
                   id={complex.id}
                   area={`${complex.location.subLocalityName}, ${complex.location.street}`}
                   title={`${complex.name}`}
+                  image={`https://images.jqestate.ru/${complex.images[0].id}-jqestate-512`}
                 />
               ))}
 
