@@ -26,7 +26,7 @@ const Description = styled.div`
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   padding-right: 1rem;
-  width: auto;
+  width: 100%;
   border-bottom-color: #646971;
   border-bottom-width: 0.125rem;
   border-bottom-style: solid;
