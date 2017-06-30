@@ -28,6 +28,7 @@ const Description = styled.div`
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   padding-right: 1rem;
+  width: auto;
   border-bottom-color: #646971;
   border-bottom-width: 0.125rem;
   border-bottom-style: solid;
@@ -59,7 +60,7 @@ const Text = styled.p`
 `;
 
 export default props => (
-  <Card to="complexes/show" title="">
+  <Card to={`/complex/${props.id}`} title="">
     <Image src={image} alt="" />
     <Description>
       <Area>{props.area}</Area>
