@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import image from '../../img/bitmap1.jpg';
-
 const Card = styled(Link)`
   display: flex;
   margin-left: auto;
@@ -61,7 +59,7 @@ const Text = styled.p`
 
 export default props => (
   <Card to={`/complex/${props.id}`} title="">
-    <Image src={image} alt="" />
+    <Image src={props.image} alt="" />
     <Description>
       <Area>{props.area}</Area>
       <Title>{props.title}</Title>
